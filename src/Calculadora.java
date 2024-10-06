@@ -15,7 +15,7 @@ public class Calculadora {
         int operacao = scanner.nextInt();
 
 
-        if (operacao != 0) {
+        if (operacao >= 1 && operacao < 5) {
             switch (operacao){
                 case 1 :
                     System.out.println("vamos somar!");
@@ -65,7 +65,7 @@ public class Calculadora {
                     return;
             }
 
-            
+
             System.out.println("Resultado: " + res);
         } else {
             System.out.println("Opção inválida!");
