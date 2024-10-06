@@ -10,7 +10,7 @@ public class Calculadora {
         System.out.println("2 para Subtrair");
         System.out.println("3 para Multiplicar");
         System.out.println("4 para Dividir");
-        System.out.print("Aguardando... ");
+        System.out.print("Digite aqui: ");
 
         int operacao = scanner.nextInt();
 
